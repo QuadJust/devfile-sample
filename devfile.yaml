@@ -1,11 +1,10 @@
-schemaVersion: 2.1.0
+schemaVersion: 5.1.0
 metadata:
   name: nodejs
   version: 1.0.0
   attributes:
     alpha.build-context: src
     alpha.build-dockerfile: Dockerfile
-test:
 components:
   - name: buildguidance
     attributes:
