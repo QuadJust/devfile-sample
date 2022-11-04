@@ -5,7 +5,7 @@ metadata:
   attributes:
     alpha.build-context: src
     alpha.build-dockerfile: Dockerfile
-
+test:
 components:
   - name: buildguidance
     attributes:
