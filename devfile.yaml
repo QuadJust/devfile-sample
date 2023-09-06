@@ -17,6 +17,9 @@ components:
           targetPort: 3001
   - name: runtime
     container:
+      env:
+        - name: OPENVSX_REGISTRY_URL
+          value: 'https://open-vsx.org/'
       image: registry.access.redhat.com/ubi8/nodejs-12:1-45
       memoryLimit: 1024Mi
       mountSources: true
